@@ -158,6 +158,11 @@ p {
   margin-bottom: 1rem;
 }
 
+.fa-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
