@@ -23,6 +23,7 @@
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-58GKG5R');
         </script>
+        <!-- End Google Tag Manager -->
 
         <!-- Hotjar Tracking Code for https://www.cronis.com.br -->
         <script>
@@ -35,7 +36,21 @@
                 a.appendChild(r);
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
         </script>
-    <!-- End Google Tag Manager -->
+
+        <!-- Install this snippet AFTER the Hotjar tracking code. -->
+        <script>
+            var userId = "123456" || null; // Replace your_user_id with your own if available.
+            window.hj('identify', userId, {
+                // Add your own custom attributes here. Some EXAMPLES:
+                // 'Signed up': '2019—06-20Z', // Signup date in ISO-8601 format.
+                // 'Last purchase category': 'Electronics', // Send strings with quotes around them.
+                // 'Total purchases': 15, // Send numbers without quotes.
+                // 'Last purchase date': '2019-06-20Z', // Send dates in ISO-8601 format.
+                // 'Last refund date': null, // Send null when no value exists for a user.
+            });
+        </script>
+    
+    
 
     </head>
     <body id="page-top">
