@@ -40,6 +40,7 @@
         <!-- Install this snippet AFTER the Hotjar tracking code. -->
         <script>
             var userId = "123456" || null; // Replace your_user_id with your own if available.
+            window.hj=window.hj||function(){(hj.q=hj.q||[]).push(arguments)};
             window.hj('identify', userId, {
                 // Add your own custom attributes here. Some EXAMPLES:
                 'Role': 'ADM', // Signup date in ISO-8601 format.
@@ -210,7 +211,7 @@
                         <!-- * * * * * * * * * * * * * * *-->
                         <!-- This form is pre-integrated with SB Forms.-->
                         <!-- To make this form functional, sign up at-->
-                        <!-- https://cronis.com.br/solution/contact-forms-->
+                        <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <!-- Name input-->
@@ -247,7 +248,7 @@
                                     <div class="fw-bolder">Form submission successful!</div>
                                     To activate this form, sign up at
                                     <br />
-                                    <a href="https://cronis.com.br/solution/contact-forms">https://cronis.com.br/solution/contact-forms</a>
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
                             <!-- Submit error message-->
@@ -498,8 +499,8 @@
         <script src="js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://cronis.com.br/solution/contact-forms * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.cronis.com.br/sb-forms-latest.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
